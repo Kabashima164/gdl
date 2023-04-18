@@ -25,15 +25,15 @@ AppleSilicon製のコンピュータにGDL-GnuDataLaungageを入れるためのD
 ・docker-compose.ymlのダウンロード<br>
 `git clone https://github.com/Kabashima164/gdl-docker.git`
 
-・コンテナの実行
+・コンテナの実行<br>
 `cd gdl-docker`<br>
 `docker compose `
 
 ・コンテナの中にはいる<br>
-`docker container exec -it gdl-env bash`
+`docker container exec -it gdl-docker bash`
 
 ### 実行してみる<br>
-`cd gdl-dev`<br>
+`cd gdl-src`<br>
 `gdl`<br>
 `plot,sin(findgen(200)/100*!pi)`<br>
 これでsinのプロットが表示されれば成功です！
