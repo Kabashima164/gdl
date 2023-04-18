@@ -27,7 +27,7 @@ AppleSilicon製のコンピュータにGDL-GnuDataLaungageを入れるためのD
 
 ・コンテナの実行<br>
 `cd gdl-docker`<br>
-`docker compose `
+`docker compose up -d`
 
 ・コンテナの中にはいる<br>
 `docker container exec -it gdl-docker bash`
