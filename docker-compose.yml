@@ -1,0 +1,12 @@
+version: '3'
+services:
+  dev:
+    build: .
+    container_name: gdl-env
+    volumes:
+      - ./src:/gdl-dev
+      - /tmp/.X11-unix:/tmp/.X11-unix
+
+    tty: true
+    environment:
+      DISPLAY: host.docker.internal:0
